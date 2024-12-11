@@ -1,0 +1,15 @@
+#bal{
+    display: block;
+}
+
+th{
+    border-bottom: 1px solid black;
+}
+
+table, tr, th, td{
+    border-collapse: collapse;
+}
+
+tr:nth-child(even){
+    background-color: lightgray;
+}
